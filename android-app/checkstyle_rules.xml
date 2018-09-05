@@ -40,13 +40,13 @@
             Checks annotations are on their own lines
             http://checkstyle.sourceforge.net/config_annotation.html#AnnotationLocation
         -->
-        <module name="AnnotationLocation">
+        <module name="AnnotationLocation"/>
 
         <!--
             Checks for long anonymous inner classes
             http://checkstyle.sourceforge.net/config_sizes.html#AnonInnerLength
         -->
-        <module name="AnonInnerLength">
+        <module name="AnonInnerLength"/>
 
         <!--
             Checks the style of array type definitions
@@ -64,13 +64,13 @@
             Restricts the number of number of &&, ||, &, | and ^ in an expression
             http://checkstyle.sourceforge.net/config_metrics.html#BooleanExpressionComplexity
         -->
-        <module name="BooleanExpressionComplexity">
+        <module name="BooleanExpressionComplexity"/>
 
         <!--
             Checks for sensible naming of catch parameters
             http://checkstyle.sourceforge.net/config_naming.html#CatchParameterName
         -->
-        <module name="CatchParameterName">
+        <module name="CatchParameterName"/>
 
         <!--
             Checks that type parameter names are a single uppercase letter
@@ -82,7 +82,7 @@
             Checks comments have the same indentation as surrounding code
             http://checkstyle.sourceforge.net/config_misc.html#CommentsIndentation
         -->
-        <module name="CommentsIndentation">
+        <module name="CommentsIndentation"/>
 
         <!--
             Checks constants names are UPPERCASE_WITH_UNDERSCORES
@@ -94,13 +94,13 @@
             Checks that classes which define a covariant equals() method also override method equals(Object).
             http://checkstyle.sourceforge.net/config_coding.html#CovariantEquals
         -->
-        <module name="CovariantEquals">
+        <module name="CovariantEquals"/>
 
         <!--
             Checks that the parts of a class or interface declaration appear in the order suggested by the Code Conventions for the Java Programming Language
             http://checkstyle.sourceforge.net/config_coding.html#DeclarationOrder
         -->
-        <module name="DeclarationOrder">
+        <module name="DeclarationOrder"/>
 
         <!--
             Check that the default is after all the cases in a switch statement
@@ -124,7 +124,7 @@
             Checks for empty catch blocks with few options to skip violation
             http://checkstyle.sourceforge.net/config_blocks.html#EmptyCatchBlock
         -->
-        <module name="EmptyCatchBlock">
+        <module name="EmptyCatchBlock"/>
 
         <!--
             Checks the padding of an empty for initializer; that is whether a space is required at an empty for initializer, or such spaces are forbidden
@@ -136,7 +136,7 @@
             Checks for empty line separators after header, package, all import declarations, fields, constructors, methods, nested classes, static initializers and instance initializers
             http://checkstyle.sourceforge.net/config_whitespace.html#EmptyLineSeparator
         -->
-        <module name="EmptyLineSeparator">
+        <module name="EmptyLineSeparator"/>
 
         <!--
             Detects empty statements (standalone ';')
@@ -318,7 +318,7 @@
             URL
         -->
         <module name="LineLength">
-            <property name="max" value="120">
+            <property name="max" value="120"/>
         </module>
 
         <!--
@@ -423,7 +423,7 @@
             http://checkstyle.sourceforge.net/config_coding.html#NestedForDepth
         -->
         <module name="NestedForDepth">
-            <property name="max" value="3">
+            <property name="max" value="3"/>
         </module>
 
         <!--
@@ -431,7 +431,7 @@
             http://checkstyle.sourceforge.net/config_coding.html#NestedIfDepth
         -->
         <module name="NestedIfDepth">
-            <property name="max" value="3">
+            <property name="max" value="3"/>
         </module>
 
         <!--
@@ -439,7 +439,7 @@
             http://checkstyle.sourceforge.net/config_coding.html#NestedTryDepth
         -->
         <module name="NestedTryDepth">
-            <property name="max" value="3">
+            <property name="max" value="3"/>
         </module>
 
         <!--
